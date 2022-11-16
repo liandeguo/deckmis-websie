@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>DeckMis Pack</title>
-		
-		<!-- JSON-LD-Markup generiert von Google Strukturierte Daten: Markup-Hilfe -->
-		<script type="application/ld+json">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DeckMis Pack</title>
+    <meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description"
+        content="Das DeckMis Pack besteht aus einer Mischung von Energie-Karten & Spiel-Karten, welche zusammen immer 10 Karten ergeben, dazu ist auch ein Link zu einer Digitalen Anleitung beigelegt. Das Pack überzeugt mit einem sehr schönen und schlichten Design." />
+    <meta name="keywords"
+        content="DeckMis, DeckMis Pack, DeckMis Corporation, DeckMis Kartenspiel, Modernes Kartenspiel, Kartenspiel" />
+
+    <!-- JSON-LD-Markup generiert von Google Strukturierte Daten: Markup-Hilfe -->
+    <script type="application/ld+json">
 			{
 				"@context": "http://schema.org",
 				"@type": "Product",
@@ -25,46 +32,165 @@
 				}
 			}
 		</script>
-	</head>
-	
-	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
-		
-		h1 {
-			font-family: 'Montserrat', sans-serif;
-		}
-		
-		p {
-			font-family: 'Montserrat', sans-serif;
-			font-size: 15px;
-			margin-bottom: -10px;
-		}
-		
-		h4 {
-			font-family: 'Montserrat', sans-serif;
-			font-size: 30px;
-		}
-		
-		h3{
-			font-family: 'Montserrat', sans-serif;
-		}
-	</style>
-	
-	
-	<body>
-		<h1>DeckMis Pack</h1>
-		<p>Das DeckMis Pack ist sinnvoll für jeden Spieler der schon Karten hat.</p>
-		<p>mit dem Pack kann man seine Sammlung von DeckMis Karten gut erweitern, da das Produkt </p>
-		<p>Bis zu 8 Energie Karten, bis zu 5 Spiel Karten und eine Digitale Anleitung enthält.</p>
-		<p>Alle Karten von DeckMis sind sehr modern und schlicht gestaltet, was perfekt</p>
-		<p>für Spieler ist die mal etwas anderes an Kartenspielen spielen wollen.</p>
-		<p>Um das Spiel zu spielen benötigt man 2 Spieler und 15 Spielen und 35 Energien pro Spieler.</p>
-		<h4>€2,99</h4>
-		
-		<h3>Bilder von dem DeckMis Pack:</h3>
-		<img src="deckmispack_front.jpg" alt="DeckMis Pack von Vorne" width="25%">
-		<img src="deckmispack_back.jpg" alt="DeckMis Pack von Hinten" width="22.06%">
-		<br>
-		<img src="deckmis_cards.jpg" alt="DeckMis Karten" width="47.2%">
-	</body>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+    }
+
+    h4 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        margin-top: -15px;
+        margin-bottom: 25px;
+    }
+
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+
+    li {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    section {
+        margin-bottom: 20px;
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        height: 100%;
+    }
+
+    a {
+        background-color: black;
+        color: white;
+        padding: 20px;
+        text-decoration: none;
+        border-radius: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    a:hover {
+        background-color: darkgray;
+    }
+
+    #pictures {
+        background-color: #F4F4F4;
+    }
+
+    #description {
+        margin: 20px;
+    }
+
+    #product_picture_1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 30px;
+    }
+
+    ::selection {
+        color: white;
+        background: black;
+    }
+
+    @media only screen and (max-width: 800px) {
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(1, 2fr);
+            grid-template-rows: 2fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+
+        a {
+            border-radius: 100px;
+            width: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            text-align: center;
+            padding-left: 30%;
+            padding-right: 30%;
+        }
+
+        h4 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    }
+</style>
+
+
+<body>
+    <div class="parent">
+        <div id="pictures">
+            <img src="https://stripe-camo.global.ssl.fastly.net/19b11eb4813c5b2bc21a42b15432455d75b1baa969f185e43a0c818977f2d402/68747470733a2f2f66696c65732e7374726970652e636f6d2f6c696e6b732f4d44423859574e6a644638785333464e616a6843576a564e576e5233516e564866475a7358327870646d566654576c7953475261557a46684d6b355a4d4745775748644c5555744753464658303064317479426a5a75"
+                alt="DeckMis Pack von Vorne" width="90%" id="product_picture_1">
+        </div>
+        <div id="description">
+            <h1>DeckMis Pack</h1>
+
+            <section>
+                <h2>Inhalt</h2>
+                <li>10 Karten (Mischung aus Spiel-Karten & Energie-Karten)</li>
+                <li>Link zu einer Digitalen Anleitung</li>
+            </section>
+
+            <section>
+                <h2>Beschreibung</h2>
+                <p>
+                    Das DeckMis Pack besteht aus einer Mischung von Energie-Karten & Spiel-Karten, welche zusammen immer
+                    10
+                    Karten ergeben,
+                    dazu ist auch ein Link zu einer Digitalen Anleitung beigelegt. Das Pack überzeugt mit einem sehr
+                    schönen
+                    und schlichten
+                    Design, aber auch mit einer guten Qualität. Geeignet ist dieses Produkt für jeden der schon DeckMis
+                    spielt und seine
+                    Sammlung von Karten erweitern möchte, da man das Spiel noch nicht mit dieser Anzahl von Karten
+                    beginnen
+                    kann.
+                </p>
+            </section>
+            <h4>€2,99</h4>
+            <a href="https://buy.stripe.com/cN22a7cOG3Us4yQ3ch" data-cursor-text="Kauf Mich!">Zum
+                Kauf</a>
+        </div>
+    </div>
+
+
+    <link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css">
+    <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+    <script>
+        var cursor = new MouseFollower();
+    </script>
+</body>
+
 </html>
